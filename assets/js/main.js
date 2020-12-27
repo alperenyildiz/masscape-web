@@ -1,16 +1,10 @@
-/**
-* Template Name: Gp - v2.2.0
-* Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 !(function($) {
   "use strict";
 
   // Preloader
   $(window).on('load', function() {
     if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function() {
+      $('#preloader').delay(1000).fadeOut('slow', function() {
         $(this).remove();
       });
     }
