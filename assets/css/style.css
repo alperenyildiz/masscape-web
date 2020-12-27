@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Jura", sans-serif;
   color: #444444;
 }
 
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Jura', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -45,14 +45,14 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #ffc451;
+  background: #f70000;
   color: #151515;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
   background: #151515;
-  color: #ffc451;
+  color: #f70000;
 }
 
 /*--------------------------------------------------------------
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 0px);
   left: calc(50% - 30px);
-  border: 6px solid #ffc451;
+  border: 4px solid #ff0000;
   border-top-color: #151515;
   border-bottom-color: #151515;
   border-radius: 50%;
@@ -139,12 +139,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a span {
-  color: #ffc451;
+  color: #ff0000;
 }
 
 #header .logo img {
   max-height: 40px;
 }
+
+/*HEADER TEST */
+
+/*.site-navbar {
+  margin-bottom: 0px;
+  z-index: 1999;
+  position: absolute;
+  width: 100%;
+   }
+  .site-navbar .container-fluid {
+    padding-left: 7rem;
+    padding-right: 7rem; }
+   
+  .site-navbar .site-logo {
+    position: absolute;
+    left: 2%;
+    max-width: 260px; }
+      .site-navbar .site-logo a:hover {
+        text-decoration: none; }
+
+  .site-navbar .site-navigation {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+     }*/
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -163,22 +190,40 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  padding: 10px 0 10px 28px;
+  padding: 10px 0 10px 25px;
 }
-
+/* # Navbar props - Alperen*/
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: rgb(255, 255, 255);
   transition: 0.3s;
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Jura", sans-serif;
   font-weight: 600;
 }
 
-.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #ffc451;
+.nav-menu > ul > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: #ff0000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
 }
+
+.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+/*
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: #ff0000;
+}*/
 
 .nav-menu .drop-down ul {
   display: block;
@@ -258,7 +303,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Get Startet Button */
+/* Get Started Button */
 .get-started-btn {
   color: #fff;
   border-radius: 4px;
@@ -267,12 +312,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #ffc451;
+  border: 2px solid #fd0000;
 }
 
 .get-started-btn:hover {
-  background: #ffbb38;
-  color: #343a40;
+  background: #fd0000;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -423,11 +468,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 64px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Jura', sans-serif;
 }
 
 #hero h1 span {
-  color: #ffc451;
+  color: #ff0000;
 }
 
 #hero h2 {
@@ -609,7 +654,7 @@ section {
 }
 
 .clients .owl-dot.active {
-  background-color: #ffc451 !important;
+  background-color: #fd0101 !important;
 }
 
 /*--------------------------------------------------------------
@@ -690,7 +735,7 @@ section {
 }
 
 .services .icon-box h4 a:hover {
-  color: #ffc451;
+  color: #ff0000;
 }
 
 .services .icon-box p {
@@ -700,9 +745,10 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #fff;
+  border-color: rgb(255, 0, 0);
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
+  color: #151515;
 }
 
 /*--------------------------------------------------------------
