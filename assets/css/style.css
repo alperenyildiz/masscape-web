@@ -144,6 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   max-height: 40px;
+  
 }
 
 /*HEADER TEST */
@@ -192,15 +193,15 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   padding: 10px 0 10px 25px;
 }
-/* # Navbar props - Alperen*/
+/* # Navbar props - Alperen-Mert*/
 .nav-menu a {
   display: block;
   position: relative;
   color: rgb(255, 255, 255);
-  transition: 0.3s;
-  font-size: 15px;
-  font-family: "Jura", sans-serif;
-  font-weight: 600;
+  transition: 0.3s;                     
+  font-size: 11px;                      
+  font-family: "Century Gothic";       
+  font-weight: 50;                       
 }
 
 .nav-menu > ul > li > a:before {
