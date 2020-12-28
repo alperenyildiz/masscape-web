@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Jura', sans-serif;
+  font-family: 'Century Gothic', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -382,7 +382,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
   color: #151515;
   text-decoration: none;
-  background: #ffc451;
+  background: #ff4242;
 }
 
 .mobile-nav .drop-down > a:after {
@@ -398,7 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .drop-down > a {
-  padding-right: 35px;
+  padding-right: 35px;   
 }
 
 .mobile-nav .drop-down ul {
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav .drop-down li {
-  padding-left: 20px;
+  padding-left: 50px;  
 }
 
 .mobile-nav-overly {
@@ -444,7 +444,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
+}
+
+#hero .container {
+  padding-top: 70px;
   position: relative;
+}
+
+@media (max-width: 992px) {
+  #hero .container {
+    padding-top: 58px;
+  }
 }
 
 #hero:before {
@@ -457,29 +467,31 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
-#hero .container {
-  position: relative;
-  padding-top: 74px;
-  text-align: center;
-}
-
 #hero h1 {
-  margin: 0;
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 64px;
+  width: 550px;
+  margin:0;
+  font-size: 46px;   /*48*/
+  font-weight: 400;  /*700*/
+  line-height: 56px;  
   color: #fff;
-  font-family: 'Jura', sans-serif;
+  font-family: "Century Gothic";
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 #hero h1 span {
   color: #ff0000;
+  text-align: center;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.692);
   margin: 10px 0 0 0;
-  font-size: 24px;
+  font-size: 15px;
+  font-weight: 20;
+  text-align: center;
+  letter-spacing: 5px;
+  
 }
 
 #hero .icon-box {
@@ -488,12 +500,6 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid rgba(255, 255, 255, 0.3);
   height: 100%;
   text-align: center;
-}
-
-#hero .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
 }
 
 #hero .icon-box h3 {
@@ -518,22 +524,32 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #ffc451;
 }
 
+#hero .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #ffc451;
+}
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
 }
 
-@media (max-width: 768px) {
-  #hero {
-    height: auto;
+@media (max-width: 992px) {
+  #hero:before {
+    content: "";
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
   }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
   }
 }
@@ -559,25 +575,25 @@ section {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #aaaaaa;
-  font-family: "Poppins", sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 
 .section-title h2::after {
   content: "";
-  width: 120px;
+  width: 120px; 
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
+  background: #ff0000;
   margin: 4px 10px;
 }
 
 .section-title p {
   margin: 0;
   margin: 0;
-  font-size: 36px;
+  font-size: 25px;  /*36*/
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Century Gothic", sans-serif;
   color: #151515;
 }
 
