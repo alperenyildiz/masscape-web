@@ -163,33 +163,6 @@ h6 {
 }
 
 
-/*HEADER TEST */
-
-
-/*.site-navbar {
-margin-bottom: 0px;
-z-index: 1999;
-position: absolute;
-width: 100%;
- }
-.site-navbar .container-fluid {
-  padding-left: 7rem;
-  padding-right: 7rem; }
- 
-.site-navbar .site-logo {
-  position: absolute;
-  left: 2%;
-  max-width: 260px; }
-    .site-navbar .site-logo a:hover {
-      text-decoration: none; }
-
-.site-navbar .site-navigation {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-   }*/
 
 
 /*--------------------------------------------------------------
@@ -659,10 +632,38 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background: rgba(255, 255, 255, 0.827);
+}
+
+
+/*
+.clients .owl-item img {
+  width: 70%;
+  opacity: 0.5;
+  transition: 0.3s;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.clients .owl-item img:hover {
+  -webkit-filter: none;
+  filter: none;
+  opacity: 1;
+}
+*/
 
 .resimBoyut {
-  height: 515px;
-  width: 700px;
+  opacity: 0.8;
+  transition: 0.5s;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.resimBoyut:hover{
+  -webkit-filter: none;
+  filter: none;
+  opacity: 1;
 }
 
 .about .content h3 {
@@ -784,6 +785,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services {
+  background: #161616;
+}
+
 
 .services .icon-box {
   text-align: center;
