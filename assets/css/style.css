@@ -500,7 +500,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(46, 45, 45, 0.6);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -666,7 +666,6 @@ section {
 */
 
 .resimBoyut {
-<<<<<<< HEAD
   opacity: 0.8;
   transition: 0.5s;
   -webkit-filter: grayscale(100);
@@ -677,10 +676,6 @@ section {
   -webkit-filter: none;
   filter: none;
   opacity: 1;
-=======
-    height: 515px;
-    width: 700px;
->>>>>>> a4feaa900df7e9904417610032ec8120b5d27325
 }
 
 .about .content h3 {
