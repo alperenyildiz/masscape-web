@@ -163,6 +163,8 @@ h6 {
 }
 
 
+<<<<<<< HEAD
+=======
 /*HEADER TEST */
 
 
@@ -190,6 +192,7 @@ h6 {
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
      }*/
+>>>>>>> a4feaa900df7e9904417610032ec8120b5d27325
 
 
 /*--------------------------------------------------------------
@@ -497,7 +500,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(46, 45, 45, 0.6);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -641,10 +644,38 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  background: rgba(255, 255, 255, 0.827);
+}
+
+
+/*
+.clients .owl-item img {
+  width: 70%;
+  opacity: 0.5;
+  transition: 0.3s;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.clients .owl-item img:hover {
+  -webkit-filter: none;
+  filter: none;
+  opacity: 1;
+}
+*/
 
 .resimBoyut {
-    height: 515px;
-    width: 700px;
+  opacity: 0.8;
+  transition: 0.5s;
+  -webkit-filter: grayscale(100);
+  filter: grayscale(100);
+}
+
+.resimBoyut:hover{
+  -webkit-filter: none;
+  filter: none;
+  opacity: 1;
 }
 
 .about .content h3 {
@@ -766,6 +797,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services {
+  background: #161616;
+}
+
 
 .services .icon-box {
     text-align: center;
