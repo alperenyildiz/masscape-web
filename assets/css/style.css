@@ -162,7 +162,6 @@ h6 {
   max-height: 25px;
 }
 
-
 /*HEADER TEST */
 
 
@@ -591,9 +590,8 @@ color: #ff0000;
   }
 }
 
-
 /*------------------------------------
-#Kayan Yazı
+Kayan yazı
 --------------------------------------*/
 
 .intro .intro-subtitle {
@@ -608,7 +606,6 @@ color: #ff0000;
 .intro .text-slider-items {
   display: none;
 }
-
 
 /*--------------------------------------------------------------
 # Sections General
@@ -660,9 +657,39 @@ section {
 # About
 --------------------------------------------------------------*/
 
+
+.about {
+background: rgba(255, 255, 255, 0.827);
+}
+
+
+/*
+.clients .owl-item img {
+width: 70%;
+opacity: 0.5;
+transition: 0.3s;
+-webkit-filter: grayscale(100);
+filter: grayscale(100);
+}
+
+.clients .owl-item img:hover {
+-webkit-filter: none;
+filter: none;
+opacity: 1;
+}
+*/
+
 .resimBoyut {
-  height: 515px;
-  width: 1100px;
+opacity: 0.8;
+transition: 0.5s;
+-webkit-filter: grayscale(100);
+filter: grayscale(100);
+}
+
+.resimBoyut:hover{
+-webkit-filter: none;
+filter: none;
+opacity: 1;
 }
 
 .about .content h3 {
@@ -784,6 +811,11 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services {
+background: #161616;
+}
+
 
 .services .icon-box {
   text-align: center;
@@ -1284,159 +1316,6 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-
-.contact .info {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .info i {
-  font-size: 20px;
-  background: #ffc451;
-  color: #151515;
-  float: left;
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 4px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #151515;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #484848;
-}
-
-.contact .info .email,
-.contact .info .phone {
-  margin-top: 40px;
-}
-
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 4px;
-}
-
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: #ffc451;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #ffc451;
-  border: 0;
-  padding: 10px 24px;
-  color: #151515;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #ffcd6b;
-}
-
-@-webkit-keyframes animate-loading {
-  0% {
-      transform: rotate(0deg);
-  }
-  100% {
-      transform: rotate(360deg);
-  }
-}
-
-@keyframes animate-loading {
-  0% {
-      transform: rotate(0deg);
-  }
-  100% {
-      transform: rotate(360deg);
-  }
-}
 
 
 /*--------------------------------------------------------------
@@ -1578,6 +1457,238 @@ section {
       margin-top: 30px;
   }
 }
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+
+.contact .info {
+  width: 100%;
+  
+}
+
+@media (max-width: 992px) {
+  #contact .container {
+      padding-top: 58px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #contact {
+      background-attachment: fixed;
+  }
+}
+
+@media (max-width: 992px) {
+  #contact:before {
+      content: "";
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+  #contact h1 {
+      font-size: 28px;
+      line-height: 36px;
+  }
+  #contact h2 {
+      font-size: 18px;
+      line-height: 24px;
+  }
+}
+/*
+#contact:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);    ANASAYFAYI BOZAN KOD
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+*/
+.contact .info i {
+  font-size: 20px;
+  background: #ffc451;
+  color: #151515;
+  float: left;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.contact .container .section-title h2 {
+  color: white;
+}
+
+.contact .container .section-title p {
+  color: white;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: white;
+}
+
+.contact .info .email,
+.contact .info .phone {
+  margin-top: 40px;
+}
+
+.contact .placeholder {
+  
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  font-family: "century gotic";
+  
+}
+
+.contact .php-email-form {
+  width: 100%;
+  margin: 0 auto;
+  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  margin-left: 200px;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+  border-color: rgb(255, 0, 0);
+  display: none;
+  color: white;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: red;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+  border: 1px solid #3c3b3b;
+  background: transparent;
+  color: #cecece !important;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+  border: 1px solid #3c3b3b;
+  background: transparent;
+  color: #cecece !important;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: transparent;
+  border: 1px solid gray;
+  padding: 10px 24px;
+  color: white;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: red;
+  border: 1px solid red;
+}
+
+.contactImage {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/contact-image.jpeg") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
 
 
 /*--------------------------------------------------------------
@@ -1606,12 +1717,13 @@ section {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
+  
 }
 
 #footer .footer-top .footer-info h3 span {
-  color: #ffc451;
+  color: #ff0000;
 }
 
 #footer .footer-top .footer-info p {
@@ -1638,7 +1750,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #ffc451;
+  background: #ff0000;
   color: #151515;
   text-decoration: none;
 }
@@ -1663,7 +1775,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #ffc451;
+  color: #ff0000;
   font-size: 18px;
   line-height: 1;
 }
@@ -1686,12 +1798,12 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #ffc451;
+  color: #ff0000;
 }
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0);
   padding: 6px 10px;
   position: relative;
   border-radius: 4px;
@@ -1708,18 +1820,18 @@ section {
   top: 0;
   right: -2px;
   bottom: 0;
-  border: 0;
+  border: 1px solid gray;
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #ffc451;
-  color: #151515;
+  background: #ff000000;
+  color: #ffffff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #ffcd6b;
+  background: #ff0000;
 }
 
 #footer .copyright {
@@ -1733,4 +1845,5 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
 
