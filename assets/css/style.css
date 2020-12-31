@@ -698,6 +698,10 @@ opacity: 1;
   font-family: "Century Gotic";
 }
 
+.about .content p{
+  font-family: "Century Gotic";
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
