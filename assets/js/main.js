@@ -243,12 +243,14 @@ function userSendMail(form_name, islem_turu) {
         success: function(data) {
             var response = jQuery.parseJSON(data);
             if (response.success) {
+                $('.validate').show();
                 $('.validate').html('<div class="alert alert-success" role="alert">' + response.message + '</div>');
                 $("#" + form_name)[0].reset();
                 setInterval(function() {
                     $('.validate').html('');
                 }, 5000)
             } else {
+                $('.validate').show();
                 $('.validate').html(response.message);
                 setInterval(function() {
                     $('.validate').html('');
