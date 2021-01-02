@@ -50,18 +50,21 @@ h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 19px;
+    font-weight: 500;
     width: 40px;
     height: 40px;
-    border-radius: 4px;
-    background: #f70000;
-    color: #151515;
+    border-radius: 7px;
+    background: #a1a1a1;
+    color: #ffffff;
     transition: all 0.4s;
+    opacity: 0.7;
 }
 
 .back-to-top i:hover {
-    background: #151515;
-    color: #f70000;
+    background: #a1a1a1;
+    opacity: 3;
+    color: #ffffff;
 }
 
 
@@ -828,7 +831,6 @@ opacity: 1;
 --------------------------------------------------------------*/
 
 .services {
-    /*background: #161616;*/
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(240, 236, 236, 0.5)), url("../img/testimonials-bg.jpg") fixed center center;
     background-size: cover;
     padding: 60px 0;
@@ -888,6 +890,8 @@ opacity: 1;
     transform: translateY(-10px);
     color: #151515;
 }
+
+
 
 
 /*--------------------------------------------------------------
