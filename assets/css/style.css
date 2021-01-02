@@ -909,17 +909,20 @@ opacity: 1;
     color: #fff;
     font-size: 28px;
     font-weight: 700;
+    letter-spacing: 2px;
 }
 
 .cta p {
     color: #fff;
+    letter-spacing: 2px;
 }
 
+
 .cta .cta-btn {
-    font-family: "Century Gotic", "sans-serif";
+    font-family: "Century Gotic",;
     font-weight: 300;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     display: inline-block;
     padding: 8px 28px;
     border-radius: 4px;
@@ -1063,7 +1066,7 @@ opacity: 1;
 
 /*--------------------------------------------------------------
 # Counts
---------------------------------------------------------------*/
+--------------------------------------------------------------
 
 .counts .content {
     padding: 30px 0;
@@ -1142,11 +1145,11 @@ opacity: 1;
         max-width: 100%;
     }
 }
-
+*/
 
 /*--------------------------------------------------------------
 # Testimonials
---------------------------------------------------------------*/
+--------------------------------------------------------------
 
 .testimonials {
     padding: 80px 0;
@@ -1250,131 +1253,13 @@ opacity: 1;
         width: 80%;
     }
 }
+*/
 
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-
-.team {
-    background: rgba(197, 197, 197, 0.411);
-    padding: 60px 0;
-}
-
-.team .member-title h2 {
-    font-size: 15px;
-    font-weight: 520;
-    padding-bottom: 25px;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #555555b7;
-    font-family: "Century Gothic";
-}
-
-.team .member-title p {
-    font-size: 22px;
-    font-weight: 600;
-    padding-bottom: 85px;
-    line-height: 1px;
-    margin: 0 0 5px 0;
-    letter-spacing: 2px;
-    color: #000000b7;
-    font-family: "Century Gothic";
-}
-
-.team .member-title h2::after {
-    content: "";
-    width: 120px;
-    height: 1px;
-    display: inline-block;
-    background: #ff0000;
-    margin: 4px 10px;
-}
-
-.team .member {
-    margin-bottom: 20px;
-    overflow: hidden;
-    border-radius: 5px;
-    background: #fff;
-    box-shadow: 0px 2px 15px rgb(0, 0, 0);
-}
-
-.team .member .member-img {
-    position: relative;
-    overflow: hidden;
-    width: 260px;
-    height: 250px;
-}
-
-.team .member .social {
-    position: absolute;
-    left: 0;
-    bottom: 30px;
-    right: 0;
-    opacity: 0;
-    transition: ease-in-out 0.3s;
-    text-align: center;
-}
-
-.team .member .social a {
-    transition: color 0.3s;
-    color: #151515;
-    margin: 0 3px;
-    padding-top: 7px;
-    border-radius: 4px;
-    width: 36px;
-    height: 36px;
-    background: rgba(255, 255, 255, 0.8);
-    display: inline-block;
-    transition: ease-in-out 0.3s;
-    color: #ffc451;
-}
-
-.team .member .social a:hover {
-    color: #fff;
-    background: #ffc451;
-}
-
-.team .member .social i {
-    font-size: 18px;
-}
-
-.team .member .member-info {
-    padding: 25px 15px;
-}
-
-.team .member .member-info h4 {
-    font-weight: 700;
-    margin-bottom: 5px;
-    font-size: 18px;
-    color: #151515;
-}
-
-.team .member .member-info span {
-    display: block;
-    font-size: 13px;
-    font-weight: 400;
-    color: #aaaaaa;
-}
-
-.team .member .member-info p {
-    font-style: italic;
-    font-size: 14px;
-    line-height: 26px;
-    color: #777777;
-}
-
-.team .member:hover .social {
-    opacity: 1;
-    bottom: 15px;
-}
 
 
 /*--------------------------------------------------------------
 # Breadcrumbs
---------------------------------------------------------------*/
+--------------------------------------------------------------
 
 .breadcrumbs {
     padding: 15px 0;
@@ -1422,7 +1307,7 @@ opacity: 1;
     }
 }
 
-
+*/
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1512,6 +1397,126 @@ opacity: 1;
     }
 }
 
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+
+.team {
+    background: rgba(197, 197, 197, 0.411);
+    padding: 60px 0;
+}
+
+.team .member-title h2 {
+    font-size: 15px;
+    font-weight: 520;
+    padding-bottom: 25px;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #555555b7;
+    font-family: "Century Gothic";
+}
+
+.team .member-title p {
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 85px;
+    line-height: 1px;
+    margin: 0 0 5px 0;
+    letter-spacing: 2px;
+    color: #000000b7;
+    font-family: "Century Gothic";
+}
+
+.team .member-title h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ff0000;
+    margin: 4px 10px;
+}
+
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgb(0, 0, 0);
+}
+
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+    width: 260px;
+    height: 250px;
+}
+
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+}
+
+.team .member .social a {
+    transition: color 0.3s;
+    color: #151515;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+    color: #ff0000;
+}
+
+.team .member .social a:hover {
+    color: #fff;
+    background: #ff0000;
+}
+
+.team .member .social i {
+    font-size: 18px;
+}
+
+.team .member .member-info {
+    padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #151515;
+}
+
+.team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}
+
+.team .member .member-info p {
+    font-style: italic;
+    font-size: 14px;
+    line-height: 26px;
+    color: #777777;
+}
+
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Contact
@@ -1529,7 +1534,7 @@ opacity: 1;
 
 @media (min-width: 1024px) {
     #contact {
-        background-attachment: fixed;
+        background-attachment: fixed; 
     }
 }
 
@@ -1548,7 +1553,6 @@ opacity: 1;
     #contact h2 {
         font-size: 18px;
         line-height: 24px;
-        font-family: "Century Gotic";
     }
 }
 
@@ -1582,43 +1586,6 @@ opacity: 1;
     letter-spacing: 2px;
     color: #ffffff;
     font-family: "Century Gothic";
-}
-
-.contact .info i {
-    font-size: 20px;
-    background: #ffc451;
-    color: #151515;
-    float: left;
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-    transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-    padding: 0 0 0 60px;
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 5px;
-    color: #ffffff;
-}
-
-.contact .container .section-title h2 {
-    color: white;
-}
-
-.contact .container .section-title p {
-    color: white;
-}
-
-.contact .info p {
-    padding: 0 0 0 60px;
-    margin-bottom: 0;
-    font-size: 14px;
-    color: white;
 }
 
 .contact .info .email,
