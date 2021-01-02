@@ -244,7 +244,7 @@
                 <div class="text-center">
                     <h3>BİZİMLE İLETİŞİME GEÇİN</h3>
                     <p> Fikirlerinizi hayata geçirmek için daha fazla beklemeyin. Masscape olarak sizinle birlikte çalışmak için sabırsızlanıyoruz.</p>
-                    <a class="cta-btn" href="#contact" >Bir Fikrim Var</a>
+                    <a class="cta-btn" href="#contact">Bir Fikrim Var</a>
                 </div>
 
             </div>
@@ -626,7 +626,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-lg-8 mt-5 mt-lg-0 contact-form">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form role="form" class="php-email-form" id="user-send-mail">
                             <div class="form-row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Ad Soyad" data-rule="minlen:1" data-msg="Lütfen en az 4 karakter girin" />
@@ -646,7 +646,7 @@
                                 <div class="error-message">Mail gönderme hata!.</div>
                                 <div class="sent-message">Mailiniz iletilmiştir. Ekibimiz en kısa sürede dönüş yapacaktır.</div>
                             </div>
-                            <div class="text-center"><button type="submit">Mesaj Gönder</button></div><br>
+                            <div class="text-center"><button type="submit" onclick="userSendMail('user-send-mail','user-send-mail');return false;">Mesaj Gönder</button></div><br>
                             <div class="validate"></div>
                         </form>
                     </div>

@@ -230,3 +230,31 @@ function aos_init() {
 $(window).on('load', function() {
     aos_init();
 });
+
+
+
+// kullanıcı mail gönderme
+function userSendMail(form_name, islem_turu) {
+    var serialized = $("#" + form_name).serialize() + "&islem_turu=" + islem_turu;
+    $.ajax({
+        type: 'POST',
+        url: 'forms/contact.php',
+        data: serialized,
+        success: function(data) {
+            var response = jQuery.parseJSON(data);
+            if (response.success) {
+                $('.validate').html('<div class="alert alert-success" role="alert">' + response.message + '</div>');
+                $("#" + form_name)[0].reset();
+                setInterval(function() {
+                    $('.validate').html('');
+                }, 5000)
+            } else {
+                $('.validate').html(response.message);
+                setInterval(function() {
+                    $('.validate').html('');
+                }, 5000)
+            }
+        },
+    });
+
+}

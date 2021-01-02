@@ -1,41 +1,45 @@
 <?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
-
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
+class fnc
+{
+  public function sendResult($success, $message = '', $records = null)
+  {
+    $result = array(
+      'success' => $success,
+      'message' => $message,
+      'records' => $records
+    );
+    echo json_encode($result);
+    die();
   }
+}
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+$FNC = new fnc();
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+function filter($value)
+{
+  $One = trim($value);
+  $Two = strip_tags($One);
+  $Three = htmlspecialchars($Two, ENT_QUOTES);
+  $result = $Three;
+  return $result;
+}
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
 
-  echo $contact->send();
-?>
+$kullanici_mail    = isset($_POST['email']) ? filter($_POST['email']) : null;
+$kullanici_adsoyad = isset($_POST['name']) ? filter($_POST['name']) : null;
+$konu              = isset($_POST['subject']) ? filter($_POST['subject']) : null;
+$mesaj             = isset($_POST['message']) ? filter($_POST['message']) : null;
+
+$to = 'sebati.dn@gmail.com';
+$subject = $konu;
+$message =  $mesaj;
+$headers[] = 'MIME-Version: 1.0';
+$headers[] = 'Content-type: text/html; charset=utf-8';
+$headers[] = 'From: ' . $kullanici_adsoyad . '<' . $kullanici_mail . '>';
+$send = mail($to, $subject, $message, implode("\r\n", $headers));
+if ($send) {
+  $FNC->sendResult(true, 'Mailiniz iletildi. Ekibimiz en kısa sürede dönüş sağlayacaktır');
+} else {
+  $FNC->sendResult(false, 'Mail gönderme hata!');
+}
