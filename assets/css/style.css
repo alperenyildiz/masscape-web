@@ -80,21 +80,21 @@ h6 {
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    background: black;
-    background: url('../img/preloaderimg.png') center center no-repeat black;
+    background: url('../img/preloader.png') center center no-repeat rgb(0, 0, 0);
+    background-size: 350px;
 }
 
 #preloader:before {
     content: "";
     position: fixed;
-    top: calc(52% - 105px);
+    top: calc(52% - 100px);
     left: calc(50% - 30px);
-    border: 4px solid #ff0000;
-    border-top-color: #151515;
-    border-bottom-color: #151515;
+    border: 4px solid #000000;
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     -webkit-animation: animate-preloader 1s linear infinite;
     animation: animate-preloader 1s linear infinite;
 }
@@ -988,7 +988,7 @@ opacity: 1;
     text-align: center;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-flters li { 
     cursor: pointer;
     display: inline-block;
     padding: 8px 15px 10px 15px;
@@ -1005,7 +1005,7 @@ opacity: 1;
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
     color: #151515;
-    background: #ffc451;
+    background: rgba(255, 73, 73, 0.822);
 }
 
 .portfolio #portfolio-flters li:last-child {
