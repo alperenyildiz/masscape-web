@@ -80,13 +80,14 @@ h6 {
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    background: #151515;
+    background: black;
+    background: url('../img/preloaderimg.png') center center no-repeat black;
 }
 
 #preloader:before {
     content: "";
     position: fixed;
-    top: calc(50% - 0px);
+    top: calc(52% - 105px);
     left: calc(50% - 30px);
     border: 4px solid #ff0000;
     border-top-color: #151515;
@@ -103,7 +104,7 @@ h6 {
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(300deg);
     }
 }
 
@@ -112,7 +113,7 @@ h6 {
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360deg);
+        transform: rotate(300deg);
     }
 }
 
@@ -891,8 +892,6 @@ opacity: 1;
 }
 
 
-
-
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -916,9 +915,8 @@ opacity: 1;
     letter-spacing: 2px;
 }
 
-
 .cta .cta-btn {
-    font-family: "Century Gotic",;
+    font-family: "Century Gotic", ;
     font-weight: 300;
     font-size: 16px;
     letter-spacing: 2px;
@@ -941,6 +939,7 @@ opacity: 1;
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
 .portfolio-title {
     padding-bottom: 40px;
 }
@@ -977,7 +976,6 @@ opacity: 1;
     color: #000000b7;
     font-family: "Century Gothic";
 }
-
 
 .portfolio .portfolio-item {
     margin-bottom: 30px;
@@ -1183,6 +1181,7 @@ opacity: 1;
 }
 */
 
+
 /*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------
@@ -1292,7 +1291,6 @@ opacity: 1;
 */
 
 
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------
@@ -1344,6 +1342,8 @@ opacity: 1;
 }
 
 */
+
+
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1432,6 +1432,7 @@ opacity: 1;
         margin-top: 30px;
     }
 }
+
 
 /*--------------------------------------------------------------
 # Team
@@ -1553,7 +1554,6 @@ opacity: 1;
 }
 
 
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1570,7 +1570,7 @@ opacity: 1;
 
 @media (min-width: 1024px) {
     #contact {
-        background-attachment: fixed; 
+        background-attachment: fixed;
     }
 }
 
