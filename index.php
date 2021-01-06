@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Masscape Co </title>
+    <title>Masscape Co. </title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -44,7 +44,7 @@
         <div class=" container-fluid d-flex justify-content-between align-items-center">
             <!-- container d-flex align-items-center  / navbar navbar-expand-lg-->
             <div class="logo">
-                <a href="index.html" class="logo">
+                <a href="/" class="logo">
                     <h4>M Λ S S C Λ P Ξ</h4>
                 </a>
                 <!--img src="assets/img/logo.png" alt=""  class="img-fluid" -->
@@ -180,10 +180,9 @@
                         <div class="icon-box">
                             <div class="icon"><i class="bx bx-world"></i></div>
                             <h4><a href="">Web Programlama ve Dizaynı</a></h4>
-                            <p> İnternet sitelerinin önemi günümüzde giderek artmaktadır. Büyüyen ve gelişen dünyaya ayak uydurmak için size uygun bir web sitenizin olması gerekmektedir. 
-                                Masscape olarak yenilikçi ve profesyonel ekibimizle sizlere, işinize ve bütçenize uygun premium hizmet sunuyoruz.
-                                 Web sitesi sizi, şirketinizi, ürünlerinizi ve hizmetlerinizi daha kolay, hızlı ve ekonomik bir şekilde uçsuz bucaksız bir kitleye ulaşmanızı sağlar. 
-                                Böylece geliriniz arttığı gibi insanlara ulaşılabilirliğinizde artar. Talebiniz doğrultusunda firmanız ve sektörünüz analiz edilip ihtiyaçlarınıza göre özel tasarım uygulanır.</p>
+                            <p> İnternet sitelerinin önemi günümüzde giderek artmaktadır. Büyüyen ve gelişen dünyaya ayak uydurmak için size uygun bir web sitenizin olması gerekmektedir. Masscape olarak yenilikçi ve profesyonel ekibimizle sizlere, işinize
+                                ve bütçenize uygun premium hizmet sunuyoruz. Web sitesi sizi, şirketinizi, ürünlerinizi ve hizmetlerinizi daha kolay, hızlı ve ekonomik bir şekilde uçsuz bucaksız bir kitleye ulaşmanızı sağlar. Böylece geliriniz arttığı
+                                gibi insanlara ulaşılabilirliğinizde artar. Talebiniz doğrultusunda firmanız ve sektörünüz analiz edilip ihtiyaçlarınıza göre özel tasarım uygulanır.</p>
                         </div>
                     </div>
 
@@ -191,8 +190,8 @@
                         <div class="icon-box">
                             <div class="icon"><i class="icofont-brainstorming"></i></div>
                             <h4><a href="">Yapay Zeka (Bilgisayarlı Görme) </a></h4>
-                            <p>Bilgisayarlı görü ve görüntü işlemede klasik problem, görüntü verilerinin alındıktan sonra belirli bir nesne, özellik veya etkinlik içerip içermediğinin belirlenmesidir.
-                                Bu konuda uzman mühendis ekibimizle işletmenize fayda sağlayacak yapay zeka sistemlerini isteğiniz doğrultusunda ar-ge çalışmalarıyla sizlere sağlıyoruz. Bu konuda daha fazla detaylı bilgi almak için lütfen bizimle iletişime geçiniz.
+                            <p>Bilgisayarlı görü ve görüntü işlemede klasik problem, görüntü verilerinin alındıktan sonra belirli bir nesne, özellik veya etkinlik içerip içermediğinin belirlenmesidir. Bu konuda uzman mühendis ekibimizle işletmenize fayda
+                                sağlayacak yapay zeka sistemlerini isteğiniz doğrultusunda ar-ge çalışmalarıyla sizlere sağlıyoruz. Bu konuda daha fazla detaylı bilgi almak için lütfen bizimle iletişime geçiniz.
                             </p>
                         </div>
                     </div>
@@ -201,13 +200,13 @@
                         <div class="icon-box">
                             <div class="icon"><i class="icofont-macbook"></i></div>
                             <h4><a href="">Masaüstü Yazılım ve Uygulama</a></h4>
-                            <p>Masaüstü yazılım hizmetleri iş gücünüzü hafifletmek ve verilerinizi güvenli bir biçimde depolamak amacıyla üretilmiş uygulamalardır. 
-                                Teknik olarak son kullanıcının işletim sisteminde bulunan verileri alarak depolayan sistemler olarak tanımlanabilir.
-                                Masscape, alanında uzmanlaşmış profesyonel ekibiyle, ihtiyaç duyduğunuz masaüstü yazılımlarını, sisteminiz üzerinde sorunsuz olarak çalışacak şekilde gerçekleştirerek en iyi çözümü sunmakta ve iş gücünüzü arttırmaktadır.
+                            <p>Masaüstü yazılım hizmetleri iş gücünüzü hafifletmek ve verilerinizi güvenli bir biçimde depolamak amacıyla üretilmiş uygulamalardır. Teknik olarak son kullanıcının işletim sisteminde bulunan verileri alarak depolayan sistemler
+                                olarak tanımlanabilir. Masscape, alanında uzmanlaşmış profesyonel ekibiyle, ihtiyaç duyduğunuz masaüstü yazılımlarını, sisteminiz üzerinde sorunsuz olarak çalışacak şekilde gerçekleştirerek en iyi çözümü sunmakta ve iş
+                                gücünüzü arttırmaktadır.
                             </p>
                         </div>
                     </div>
-<!--
+                    <!--
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon-box">
                             <div class="icon"><i class="icofont-iphone"></i></div>
@@ -221,21 +220,20 @@
                         <div class="icon-box">
                             <div class="icon"><i class="icofont-brand-google"></i></div>
                             <h4><a href="">SEO Hizmetleri</a></h4>
-                            <p>Basitçe, açılımı Search Engine Optimization – Arama Motoru Optimizasyonu olan SEO web sitenizi optimize etme işlemidir. 
-                                Bu optimizasyon arama motorlarının arama sonuçlarında üst konumlarda görüntülemeye değecek olduğunu göstermesine izin verir.
-                                Bu hizmeti müşterilerimize bizden almış oldukları web sitesine ücretsiz olarak uyguluyoruz.</p>
+                            <p>Basitçe, açılımı Search Engine Optimization – Arama Motoru Optimizasyonu olan SEO web sitenizi optimize etme işlemidir. Bu optimizasyon arama motorlarının arama sonuçlarında üst konumlarda görüntülemeye değecek olduğunu göstermesine
+                                izin verir. Bu hizmeti müşterilerimize bizden almış oldukları web sitesine ücretsiz olarak uyguluyoruz.</p>
                         </div>
                     </div>
 
-                   
+
 
                     <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
                         <div class="icon-box">
                             <div class="icon"><i class="icofont-search-map"></i></div>
                             <h4><a href="">Ar-Ge</a></h4>
-                            <p>Teknoloji Geliştirme Bölgeleri Kanunu’na göre Ar-Ge; kültür, insan ve toplumun bilgisinden oluşan bilgi dağarcığının artırılması ve bunun yazılım dahil yeni süreç, 
-                                sistem ve uygulamalar tasarlamak üzere kullanılması için sistematik bir temelde yürütülen yaratıcı çalışmalardır.
-                            Sunduğumuz bu hizmet ile Masscape olarak siz müşterilerimizin işletmelerini geliştirmek ve büyütmek için araştırma ve geliştirme faaliyetlerini gerçekleştirip uygun bulunması halinde uygulamalı olarak işletmenize entegre edilmektedir. </p>
+                            <p>Teknoloji Geliştirme Bölgeleri Kanunu’na göre Ar-Ge; kültür, insan ve toplumun bilgisinden oluşan bilgi dağarcığının artırılması ve bunun yazılım dahil yeni süreç, sistem ve uygulamalar tasarlamak üzere kullanılması için sistematik
+                                bir temelde yürütülen yaratıcı çalışmalardır. Sunduğumuz bu hizmet ile Masscape olarak siz müşterilerimizin işletmelerini geliştirmek ve büyütmek için araştırma ve geliştirme faaliyetlerini gerçekleştirip uygun bulunması
+                                halinde uygulamalı olarak işletmenize entegre edilmektedir. </p>
                         </div>
                     </div>
 
@@ -275,7 +273,7 @@
                             <li data-filter=".filter-web">WEB</li>
                             <li data-filter=".filter-app">MASAÜSTÜ</li>
                             <li data-filter=".filter-card">Ar-Ge / Yapay Zeka</li>
-                          <!--  <li data-filter=".filter-web">DİĞER</li>-->
+                            <!--  <li data-filter=".filter-web">DİĞER</li>-->
                         </ul>
                     </div>
                 </div>
@@ -323,7 +321,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>   
+                    </div>
 
                     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div class="portfolio-wrap">
@@ -347,7 +345,7 @@
                                 <p>Web</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/Web/carxpark.png" data-gall="portfolioGallery" class="venobox" title="CarXpark"><i class="bx bx-plus"></i></a>
-                                   <!-- <a href="#" target="_blank" title="Daha Fazla"><i class="bx bx-link"></i></a>-->
+                                    <!-- <a href="#" target="_blank" title="Daha Fazla"><i class="bx bx-link"></i></a>-->
                                 </div>
                             </div>
                         </div>
@@ -445,7 +443,7 @@
                                 <p>Kafe Otomasyon Hizmeti</p>
                                 <div class="portfolio-links">
                                     <a href="assets/img/portfolio/App/comingSoon.png" data-gall="portfolioGallery" class="venobox" title="MassCafe"><i class="bx bx-plus"></i></a>
-                                   <!-- <a href="https://www.youtube.com/channel/UC4wvWZHvZmb17T3CRFxgTgQ" title="Daha Fazla"><i class="bx bx-link"></i></a> -->
+                                    <!-- <a href="https://www.youtube.com/channel/UC4wvWZHvZmb17T3CRFxgTgQ" title="Daha Fazla"><i class="bx bx-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -510,7 +508,7 @@
                                 <img src="assets/img/team/alperen.png" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href="https://twitter.com/yldzalperen5" target="_blank"><i class="icofont-twitter"></i></a>
-                                    <a ><i class="icofont-facebook"></i></a>
+                                    <a><i class="icofont-facebook"></i></a>
                                     <a href="https://www.instagram.com/alperenyildiz5/" target="_blank"><i class="icofont-instagram"></i></a>
                                     <a href="https://www.linkedin.com/in/alperen-yildiz/" target="_blank"><i class="icofont-linkedin"></i></a>
                                 </div>
@@ -528,7 +526,7 @@
                                 <img src="assets/img/team/sebati.png" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href="https://twitter.com/sebatidgn" target="_blank"><i class="icofont-twitter"></i></a>
-                                    <a ><i class="icofont-facebook"></i></a>
+                                    <a><i class="icofont-facebook"></i></a>
                                     <a href="https://www.instagram.com/dogannnsebati/" target="_blank"><i class="icofont-instagram"></i></a>
                                     <a href="https://www.linkedin.com/in/sebati-doğan-8abb17179" target="_blank"><i class="icofont-linkedin"></i></a>
                                 </div>
