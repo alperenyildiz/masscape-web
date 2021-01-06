@@ -44,7 +44,7 @@
         <div class=" container-fluid d-flex justify-content-between align-items-center">
             <!-- container d-flex align-items-center  / navbar navbar-expand-lg-->
             <div class="logo">
-                <a href="/" class="logo">
+                <a href="index" class="logo">
                     <h4>M Λ S S C Λ P Ξ</h4>
                 </a>
                 <!--img src="assets/img/logo.png" alt=""  class="img-fluid" -->
